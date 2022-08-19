@@ -28,3 +28,9 @@ function infiniteLoop(): never {
 }
 
 // void (잘 안씀)
+
+function retrunVoid(message: string): void {
+  console.log(message);
+
+  return undefined;
+}
